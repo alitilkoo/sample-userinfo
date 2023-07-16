@@ -1,8 +1,8 @@
-const UserAge = () => {
+const UserAge = ({age}) => {
     return (
 
         <div>
-            <p> User age: 22</p>
+            <p> User age: {age} </p>
         </div>
     )
 }

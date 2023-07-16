@@ -1,8 +1,8 @@
-const UserName = () => {
+const UserName = ({name}) => {
     return (
 
         <div>
-            <p> User name: Ali</p>
+            <p> User name: {name} </p>
         </div>
     )
 }

@@ -3,12 +3,12 @@ import UserEmail from "./UserEmail";
 import UserName from "./UserName";
 
 
-const UserInfo = () => {
+const UserInfo = ({name,email,age}) => {
     return (
         <div>
-           <UserName/>
-           <UserEmail/>
-           <UserAge/>
+           <UserName  name={name}  />
+           <UserEmail email={email} />
+           <UserAge age={age} />
         </div>
 
     )

@@ -1,8 +1,8 @@
-const UserEmail = () => {
+const UserEmail = ({email}) => {
     return (
 
         <div>
-            <p> User email: ali@gmail.com</p>
+            <p> User email: {email} </p>
         </div>
     )
 }

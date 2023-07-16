@@ -5,7 +5,9 @@ function App() {
   return (
     <div>
 
-    <UserInfo/>
+      
+
+    <UserInfo  name="ali" age="22" email="ali@gmail.com"  />
 
     </div>
 
