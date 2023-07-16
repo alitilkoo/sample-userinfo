@@ -1,8 +1,10 @@
+import './username.css';
+
 const UserName = ({name}) => {
     return (
 
         <div>
-            <p> User name: {name} </p>
+            <p className='userName'> User name: {name} </p>
         </div>
     )
 }
